@@ -18,6 +18,7 @@ stdin.on('data', data => {
   });
 });
 
+//exit ctrl+c
 process.on('SIGINT', () => {
   console.log('\nДо свидания!');
   exit();
